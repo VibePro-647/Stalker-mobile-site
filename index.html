@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StalkerMobile</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>StalkerMobile</h1>
+    <nav>
+      <button onclick="showTab('official')">Официальные моды</button>
+      <button onclick="showTab('user')">Пользовательские моды</button>
+      <button onclick="showTab('templates')">Шаблоны</button>
+      <button onclick="showTab('games')">Игры</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="official" class="tab">Загрузка...</section>
+    <section id="user" class="tab hidden">Загрузка...</section>
+    <section id="templates" class="tab hidden">
+      <h2>Шаблоны</h2>
+      <p>Скачайте шаблон, положите его в архив и переименуйте в <code>.socmode</code></p>
+      <a href="template.zip" download>📦 Скачать шаблон</a>
+    </section>
+    <section id="games" class="tab hidden">
+      <h2>Игры</h2>
+      <ul>
+        <li><strong>Тень Чернобыля</strong></li>
+        <li><strong>Чистое Небо</strong></li>
+        <li><strong>Зов Припяти</strong></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 StalkerMobile — Неофициальный проект</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

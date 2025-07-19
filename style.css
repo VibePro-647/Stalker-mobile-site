@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #121212;
+  color: #eee;
+}
+
+header {
+  background: #1e1e1e;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav button {
+  margin: 0.2rem;
+  padding: 0.5rem 1rem;
+  background: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background: #555;
+}
+
+.tab {
+  padding: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.mod-card {
+  border: 1px solid #444;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #1a1a1a;
+  border-radius: 5px;
+}
